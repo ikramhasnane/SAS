@@ -1,4 +1,5 @@
 const prompt=require("prompt-sync")();
+
 let taille = parseInt(prompt("Combien d'éléments voulez-vous dans le tableau ?"))
 let monTableau = [];      
 for (let i = 0; i < taille; i++) {
