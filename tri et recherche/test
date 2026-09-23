@@ -1,0 +1,11 @@
+const tab=[1,5,8,10,0];
+let X=0;
+for (let i=0;i<tab.length;i++){
+    for(let j=0;j<tab.length-i-1;j++){
+if (tab[j]>tab[j+1]){
+     X=tab[j];
+    tab[j]=tab[j+1];
+    tab[j+1]=X;
+}
+}
+} console.log(tab);
